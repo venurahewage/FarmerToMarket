@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family:courier,arial,helvetica;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.con {
+  padding: 20px;
+  margin: 20px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+header, nav, section, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.homebutton{
+  background-color: #333;
+}
+
+
+
+.lgbtn2 {
+  width: 60%;
+  background-color: #DEA81C;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  white-space: normal;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+.lgbtn2:hover {
+  background-color: #F7D98C;
+}
+
+
+
+
+
+
+input[type=text],[type=password], select {
+  width: 100%;
+  padding: 9px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+hr.new {
+  border-top: 1px solid #E2E2E2;
+  align: center;
+  width:95%;
+}
+
+input[type=text],[type=password], select {
+  width: 100%;
+  padding: 9px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+.w3-card{border-radius: .50rem;background-color: #fff;box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.w3-container{padding:0.01em 16px}
+
